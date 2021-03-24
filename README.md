@@ -20,3 +20,17 @@ To see what is in latest release , see [CHANGELOG](CHANGELOG.md)
 * In browser post `http://localhost:8080/`
 ![alt text](img/login.PNG)
 * On browser Login to application using email "sashanka.singh@gmail.com" and password "sashanka1985".
+* On next page click Submit.
+![alt text](img/welcome.PNG)
+* You will land on quiz page where you can select quizes on the top left
+![alt text](img/quizpage.PNG)
+* Answer questions.
+* You can go to First/Prev/Next/Last question.
+![alt text](img/quizpagenavigation.PNG)
+* After time expires/or after you press Submit Quiz, you go to the review page.
+![alt text](img/reviewquiz.PNG)
+
+#### Extra
+* App Installed.
+* Offline access.
+
