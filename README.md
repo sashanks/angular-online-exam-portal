@@ -32,7 +32,7 @@ To see what is in latest release , see [CHANGELOG](CHANGELOG.md)
 
 #### Extra
 * App Installed.
-![alt text](img/InstallApp.PNG)
+![alt text](img/installtheapp.png)
 * Online portal as Application.
 ![alt text](img/onlineexamasapp.PNG)
 * Offline access.
