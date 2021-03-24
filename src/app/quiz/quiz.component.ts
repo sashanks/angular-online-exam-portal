@@ -45,10 +45,8 @@ export class QuizComponent implements OnInit {
   endTime: Date;
   ellapsedTime = '00:00';
   duration = '';
-  //quizService: any;
 
   constructor(private quizService: QuizService) {
-    //quizService: QuizService;
    }
 
    ngOnInit() {

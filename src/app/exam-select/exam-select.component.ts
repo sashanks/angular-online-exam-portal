@@ -13,8 +13,7 @@ export class ExamSelectComponent implements OnInit {
   ngOnInit(): void {
     
   }
-  goToExam() {  
-      //alert("Inside Go To Exam Method");
+  goToExam() {
       this.router.navigate(['/quiz']);
     } 
 
