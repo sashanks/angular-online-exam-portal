@@ -12,6 +12,8 @@ import { FormsModule } from '@angular/forms';
 import { QuizService } from './quiz.service';
 import { HelperService } from './helper.service';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
     ReactiveFormsModule,    
     BackButtonDisableModule.forRoot({preserveScrollPosition: true}),
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     QuizService,
